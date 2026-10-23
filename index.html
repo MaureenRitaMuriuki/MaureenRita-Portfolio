@@ -76,4 +76,5 @@ function renderCommands(q=''){let list=commandItems.filter(a=>a.join(' ').toLowe
 addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();showCommands()}if(e.key==='Escape'){commandModal.classList.remove('open');closeCase()}});
 const toast=$('#toast');let toastTimer;function notify(msg){toast.textContent=msg;toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),2200)}$('#copyemail').addEventListener('click',async()=>{try{await navigator.clipboard.writeText('maureenrita47@gmail.com');notify('EMAIL COPIED TO CLIPBOARD')}catch{location.href='mailto:maureenrita47@gmail.com'}});
 $('#surprise').addEventListener('click',()=>{let opts=['#work','#lab','#experience','#contact'];let target=opts[Math.floor(Math.random()*opts.length)];document.querySelector(target).scrollIntoView({behavior:'smooth'});notify('RANDOM ACCESS → '+target.replace('#','').toUpperCase())});
-</script></body></html>
+</script><!-- GitHub Pages refresh: 2026-10-23 -->
+</body></html>
