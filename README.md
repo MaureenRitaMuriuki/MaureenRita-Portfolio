@@ -1,41 +1,44 @@
-# Maureen Rita Muriuki — Portfolio
+# MR.exe — Maureen Rita Muriuki
 
-A responsive, interactive portfolio highlighting my work across cybersecurity, IT, and digital strategy.
+**A digital field guide to cybersecurity, systems, and strategy.**
 
-## Live site
+This portfolio is designed as an interactive environment rather than a conventional resume page. It is built with vanilla HTML, CSS, and JavaScript and requires no build tooling.
 
-After GitHub Pages is enabled, the site should be available at:
+## Experience features
 
-**https://maureenritamuriuki.github.io/MaureenRita-Portfolio/**
+- Animated network-node field in the hero section
+- Draggable desktop-style information windows on larger screens
+- Interactive case-file tiles with project dossiers and repository links
+- Category filters for web security, network analysis, and tools
+- Command palette: press **Ctrl+K** (or **⌘K** on Mac) to navigate the site or open project case files
+- Floating taskbar navigation and active-section state
+- Cursor-reactive visual effects, responsive layout, and reduced-motion support
+- Email copy shortcut and random-access navigation
 
-## Features
-
-- Responsive desktop, tablet, and mobile layout
-- Interactive terminal commands: help, about, projects, skills, contact, clear
-- Project filters for web security, network analysis, and tools/automation
-- Light/dark theme toggle
-- Scroll progress indicator and section navigation
-- Contact shortcuts and email copy action
-- Reduced-motion support
-- No build step or package installation required
-
-## Run locally
-
-Open `index.html` in a browser. The site uses HTML, CSS, and vanilla JavaScript.
-
-## Featured projects
+## Projects
 
 - [DVWA — Web Application Security Lab](https://github.com/MaureenRitaMuriuki/DVWA)
 - [Nmap Vulnerability Scanner](https://github.com/MaureenRitaMuriuki/nmap-vuln-scanner)
 - [DNS Spoofing with Wireshark](https://github.com/MaureenRitaMuriuki/dns-spoofing-with-wireshark)
 - [Network Path Mapping with MTR](https://github.com/MaureenRitaMuriuki/network-path-mapping-mtr)
 
+## Run locally
+
+Open `index.html` in a modern browser. The portfolio uses plain HTML, CSS, and JavaScript, with Google Fonts loaded remotely.
+
+## Publish with GitHub Pages
+
+1. Open the repository's **Settings → Pages**.
+2. Select **Deploy from a branch**.
+3. Select branch `main` and folder `/(root)`, then save.
+4. Use the site URL shown in Pages settings once the deployment completes.
+
 ## Contact
 
 - LinkedIn: [maureen-rita-781871254](https://www.linkedin.com/in/maureen-rita-781871254)
-- Email: maureenrita47@gmail.com
+- Email: [maureenrita47@gmail.com](mailto:maureenrita47@gmail.com)
 - GitHub: [MaureenRitaMuriuki](https://github.com/MaureenRitaMuriuki)
 
-## Accuracy and scope
+## Accuracy and security scope
 
-Project descriptions are limited to documented project scope. No unverified results or certifications are claimed. Security labs are for controlled environments and authorized testing only.
+Project descriptions reflect documented repository scope. No unverified findings or performance metrics are claimed. Security labs are intended for controlled environments and authorized testing only.
