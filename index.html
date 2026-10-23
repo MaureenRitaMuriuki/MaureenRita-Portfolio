@@ -1,211 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maureen Rita | Cybersecurity Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Inter', sans-serif;
-    }
-    body {
-      background: #fff0f5;
-      color: #1a1a1a;
-      line-height: 1.6;
-      padding: 2rem;
-    }
-    h1, h2, h3 {
-      text-align: center;
-      margin-bottom: 1rem;
-    }
-    section {
-      margin-bottom: 2rem;
-      background: #ffffff;
-      padding: 1.5rem;
-      border-radius: 15px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-    }
-    .projects, .certifications, .experience {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 1rem;
-    }
-    .card {
-      background: #fffafc;
-      border: 1px solid #f9c6d0;
-      padding: 1rem;
-      border-radius: 10px;
-    }
-    .contact-form {
-      max-width: 600px;
-      margin: 0 auto;
-    }
-    input, textarea {
-      width: 100%;
-      padding: 10px;
-      margin: 0.5rem 0;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    button {
-      background: #f8c8dc;
-      border: none;
-      padding: 0.75rem 2rem;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    img {
-      max-width: 100%;
-      border-radius: 8px;
-    }
-    .resume-link {
-      text-align: center;
-      margin-top: 1rem;
-    }
-    .resume-link a {
-      display: inline-block;
-      margin-top: 0.5rem;
-      background: #f8c8dc;
-      padding: 0.75rem 1.5rem;
-      border-radius: 5px;
-      text-decoration: none;
-      color: #1a1a1a;
-      font-weight: bold;
-    }
-  </style>
-</head>
-<body>
-  <h1>Maureen Rita</h1>
-  <p align="center">
-    <strong>Offensive Security Specialist | Red Team Operator | Threat Simulation Expert</strong><br>
-    </p>
-
-  <section>
-    <h2>🫠 Professional Summary</h2>
-    <p>Detail-oriented and passionate <strong>Cybersecurity Analyst</strong> with proven experience in <strong>penetration testing</strong>, <strong>threat detection</strong>, <strong>incident response</strong>, and <strong>vulnerability assessment</strong>. Skilled in using offensive security techniques across platforms like Hack The Box, Cyberspace CTFs, and simulated attack environments.</p>
-    <p>Combines deep technical acumen with excellent communication and documentation skills to deliver impactful, actionable security insights. Excels in fast-paced environments that demand adaptability, critical thinking, and innovation.</p>
-    <ul>
-      <li><strong>Cyber Defense:</strong> Threat Intelligence | Incident Response | Splunk Dashboards | Risk Remediation</li>
-      <li><strong>Offensive Security:</strong> OWASP Top 10 | Web App Exploits | Vulnerability Scanning | Ethical Hacking</li>
-      <li><strong>Technical Stack:</strong> Wireshark | Python | Bash | Burp Suite | Nmap | MTR | DNS Spoofing</li>
-      <li><strong>Communication:</strong> Security Reporting | Executive Briefings | Awareness Campaigns</li>
-    </ul>
-  </section>
-
-  <section class="resume-link">
-    <h2>📄 View My Resume</h2>
-    <p><a href="MaureenRita_CV.pdf" target="_blank">Download PDF</a></p>
-  </section>
-
-  <section>
-    <h2>📜 Certifications & Credentials</h2>
-    <p align="center">
-      <a href="https://cybergirls.cybersafefoundation.org/" target="_blank">CyberGirls Fellowship</a> |
-      <a href="https://cybersafefoundation.org" target="_blank">CyberSafe Training</a> |
-      <a href="https://skillsforall.com" target="_blank">Cisco Threat Analysis</a> |
-      <a href="https://www.linkedin.com/learning/" target="_blank">LinkedIn Security Certs</a> |
-      <a href="https://academy.hackthebox.com" target="_blank">Hack The Box Academy</a>
-    </p>
-    <div class="certifications">
-      <div class="card">CyberGirls Fellowship – Practical training in ethical hacking and labs</div>
-      <div class="card">CyberSafe Security Training – IAM & OWASP Fundamentals</div>
-      <div class="card">Cisco Security Courses – Network Defense & Threat Analysis</div>
-      <div class="card">LinkedIn Learning – Phishing, SOC Tools, Threat Modeling</div>
-      <div class="card">Hack The Box Academy – Linux & Web Application Security</div>
-    </div>
-  </section>
-
-  <section>
-    <h2>🚀 Projects</h2>
-    <div class="projects">
-      <div class="card">
-        <h3>DVWA Pentest</h3>
-        <p>Full penetration test using Kali Linux on DVWA. Covered XSS, SQLi, Command Injection. Documented with screenshots and recommendations.</p>
-      </div>
-      <div class="card">
-        <h3>Nmap Vulnerability Scanner</h3>
-        <p>Python wrapper for Nmap. Automated vulnerable port detection. Parsed outputs and created summary reports.</p>
-      </div>
-      <div class="card">
-        <h3>DNS Spoofing & Analysis</h3>
-        <p>Simulated DNS spoofing and captured traffic using Wireshark. Demonstrated MITM vulnerabilities.</p>
-      </div>
-      <div class="card">
-        <h3>Network Path Mapping</h3>
-        <p>Used mtr and traceroute for diagnostics. Visualized latency and packet loss to detect bottlenecks.</p>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <h2>💼 Experience</h2>
-    <div class="experience">
-      <div class="card">
-        <h3>Freelance Developer & Analyst (2021 – Present)</h3>
-        <p>Secured web apps, improved incident response by 40%, implemented secure APIs.</p>
-      </div>
-      <div class="card">
-        <h3>Cybersecurity Attaché – Judiciary of Kenya (2023)</h3>
-        <p>Secured judiciary networks, trained users, improved database access controls.</p>
-      </div>
-      <div class="card">
-        <h3>CTF Participant – Cyberspace Foundation (2023)</h3>
-        <p>Performed exploit research, cryptography, penetration testing, and network defense.</p>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <h2>🎓 Education</h2>
-    <div class="card">
-      <p><strong>BSc. Information Technology – Dedan Kimathi University of Technology</strong></p>
-      <p>Relevant Coursework: Network Security | Secure Software Dev | Cybersecurity Fundamentals</p>
-    </div>
-  </section>
-
-  <section>
-    <h2>👩🏽‍💼 Leadership & Volunteering</h2>
-    <div class="card">
-      <p><strong>President – Model United Nations</strong>: Led policy talks on AI, digital sovereignty, cyber law.</p>
-      <p><strong>UNDP Student Ambassador – 2023</strong>: Advocated cybersecurity and digital inclusion in Africa.</p>
-    </div>
-  </section>
-
-  <section>
-    <h2>🧪 Virtual Experience Projects</h2>
-    <div class="projects">
-      <div class="card">
-        <h3>AIG Shields Up</h3>
-        <p>Simulated ransomware, brute-forced keys, drafted CISA vuln remediation reports.</p>
-      </div>
-      <div class="card">
-        <h3>Commonwealth Bank</h3>
-        <p>Created Splunk dashboards, detected fraud trends, built secure UX infographics.</p>
-      </div>
-      <div class="card">
-        <h3>Mastercard</h3>
-        <p>Trained staff on phishing threats, customized security awareness modules.</p>
-      </div>
-      <div class="card">
-        <h3>TCS IAM Analyst</h3>
-        <p>Aligned IAM strategy with org goals, delivered C-level security reports.</p>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <h2>🎀 Contact Me</h2>
-    <form class="contact-form">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
-
-</body>
-</html>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#090c10"><meta name="description" content="Maureen Rita Muriuki — cybersecurity, IT, and digital strategy portfolio."><meta property="og:title" content="Maureen Rita Muriuki | Security-minded. Systems-focused."><meta property="og:description" content="Cybersecurity projects, consulting experience, and digital strategy."><title>Maureen Rita Muriuki — Security-minded. Systems-focused.</title><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--bg:#090c10;--panel:#10151c;--panel2:#151e25;--line:#29343e;--text:#edf4f4;--muted:#9aabb4;--lime:#c7f36b;--cyan:#6ee7dc;--nav:rgba(9,12,16,.84);--mono:"DM Mono",monospace;--sans:"Manrope",sans-serif} [data-theme=light]{color-scheme:light;--bg:#f4f7f5;--panel:#fff;--panel2:#eaf0ed;--line:#d5e0dc;--text:#15201f;--muted:#5d706d;--lime:#477b08;--cyan:#087f77;--nav:rgba(244,247,245,.87)}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:85px}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 var(--sans);transition:background .2s}a{color:inherit;text-decoration:none}button,input{font:inherit}.wrap{width:min(1100px,calc(100% - 40px));margin:auto}.mono{font: .76rem var(--mono);letter-spacing:.04em}.muted{color:var(--muted)}.accent{color:var(--lime)}.progress{height:2px;background:var(--lime);position:fixed;z-index:999;top:0;left:0;width:0}.eyebrow{font: .74rem var(--mono);letter-spacing:.13em;text-transform:uppercase;color:var(--lime)}.eyebrow:before{content:"";display:inline-block;width:22px;height:1px;background:currentColor;vertical-align:middle;margin-right:10px}.section{padding:90px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:28px;margin-bottom:30px}.section-head h2{font-size:clamp(2rem,4.5vw,3.3rem);letter-spacing:-.065em;line-height:1.08;margin:10px 0 0}.section-head p{max-width:420px;color:var(--muted);font-size:.9rem;margin:0}.btn{display:inline-flex;align-items:center;gap:10px;padding:11px 16px;border:1px solid var(--line);border-radius:9px;background:transparent;color:var(--text);font-size:.83rem;font-weight:700;cursor:pointer;transition:.2s}.btn:hover{border-color:var(--lime);transform:translateY(-2px)}.btn.primary{background:var(--lime);border-color:var(--lime);color:#11170a}.btn.primary:hover{background:var(--cyan);border-color:var(--cyan)}header{position:sticky;top:0;z-index:50;background:var(--nav);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.nav{height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:800;letter-spacing:-.04em;display:flex;align-items:center;gap:10px}.brandmark{width:34px;height:34px;border:1px solid var(--lime);color:var(--lime);display:grid;place-items:center;border-radius:9px;font: .8rem var(--mono)}.navlinks{display:flex;gap:23px;color:var(--muted);font-size:.8rem}.navlinks a:hover,.navlinks a.active{color:var(--text)}.navright{display:flex;gap:9px}.iconbtn,.menubtn{width:38px;height:38px;border:1px solid var(--line);border-radius:9px;background:var(--panel);cursor:pointer}.menubtn{display:none}
+.hero{min-height:650px;display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:45px;padding-top:60px;padding-bottom:70px;position:relative}.hero:after{content:"";position:absolute;right:-10%;top:8%;width:450px;height:450px;border-radius:50%;background:radial-gradient(circle,rgba(199,243,107,.08),transparent 68%);pointer-events:none;z-index:-1}.status{display:inline-flex;align-items:center;gap:9px;border:1px solid var(--line);border-radius:99px;padding:7px 11px;color:var(--muted);font:.68rem var(--mono)}.dot{width:7px;height:7px;border-radius:50%;background:var(--lime);box-shadow:0 0 10px var(--lime)}.hero h1{font-size:clamp(3.2rem,7.5vw,6.3rem);line-height:.98;letter-spacing:-.085em;margin:24px 0;font-weight:800}.hero h1 span{display:block;color:var(--lime)}.hero-copy{max-width:600px;color:var(--muted);font-size:1rem}.hero-copy strong{color:var(--text)}.actions{display:flex;flex-wrap:wrap;gap:11px;margin-top:28px}.socials{display:flex;flex-wrap:wrap;gap:18px;margin-top:23px;font-size:.79rem;color:var(--muted)}.socials a:hover{color:var(--lime)}.terminal{border:1px solid var(--line);border-radius:17px;background:var(--panel);overflow:hidden;box-shadow:0 25px 70px #0002;transform:rotate(1deg)}.termhead{display:flex;justify-content:space-between;padding:14px 17px;border-bottom:1px solid var(--line);font:.68rem var(--mono);color:var(--muted)}.lights{letter-spacing:4px}.termbody{padding:21px;font:.76rem/1.9 var(--mono);min-height:300px}.prompt{color:var(--lime)}.output{color:var(--muted);padding-left:17px;overflow-wrap:anywhere}.output b{color:var(--cyan);font-weight:400}.termform{display:flex;gap:8px;border-top:1px solid var(--line);margin-top:18px;padding-top:15px}.termform input{background:transparent;color:var(--text);border:0;outline:0;min-width:0;flex:1;font:.76rem var(--mono)}.termform button{border:0;background:transparent;color:var(--lime);font:.75rem var(--mono);cursor:pointer}.hint{font-size:.65rem;color:var(--muted);margin:10px 0 0}.ticker{border-block:1px solid var(--line);background:var(--panel);overflow:hidden}.ticker div{width:max-content;display:flex;gap:35px;white-space:nowrap;padding:14px 0;animation:move 34s linear infinite;font:.7rem var(--mono);text-transform:uppercase;color:var(--muted)}.ticker span:before{content:"✳";color:var(--lime);margin-right:35px}@keyframes move{to{transform:translateX(-50%)}}
+.aboutgrid{display:grid;grid-template-columns:.7fr 1.3fr;gap:45px}.stamp,.card{border:1px solid var(--line);border-radius:14px;background:var(--panel);padding:24px}.stamp{display:flex;flex-direction:column;justify-content:space-between;min-height:250px}.stampbig{font-size:4rem;letter-spacing:-.1em;font-weight:800;color:var(--lime)}.stampfoot{display:flex;justify-content:space-between;gap:12px;color:var(--muted);font:.65rem var(--mono)}.aboutcopy h3{font-size:1.5rem;line-height:1.35;letter-spacing:-.04em;margin:0 0 15px}.aboutcopy p{font-size:.9rem;color:var(--muted)}.pills,.tags{display:flex;flex-wrap:wrap;gap:8px}.pill{border:1px solid var(--line);border-radius:6px;padding:6px 9px;color:var(--muted);font:.66rem var(--mono)}
+#work{background:var(--panel);border-block:1px solid var(--line)}.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}.filter{padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:transparent;color:var(--muted);font-size:.76rem;cursor:pointer}.filter[aria-pressed=true],.filter:hover{background:var(--lime);border-color:var(--lime);color:#11170a}.projects{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.project{border:1px solid var(--line);border-radius:14px;padding:22px;background:var(--bg);min-height:300px;display:flex;flex-direction:column;transition:transform .2s,border-color .2s}.project:hover{transform:translateY(-4px);border-color:var(--lime)}.project[hidden]{display:none}.projecttop{display:flex;justify-content:space-between;gap:10px}.num{font:.7rem var(--mono);color:var(--lime)}.type{font:.63rem var(--mono);color:var(--muted);border:1px solid var(--line);border-radius:5px;padding:4px 7px}.project h3{font-size:1.28rem;letter-spacing:-.04em;margin:22px 0 8px}.project p{font-size:.84rem;color:var(--muted);margin:0 0 18px}.tags{margin-top:auto;margin-bottom:18px}.tags span{background:color-mix(in srgb,var(--cyan) 8%,transparent);color:var(--cyan);padding:5px 7px;border-radius:5px;font:.64rem var(--mono)}.project a{font-size:.79rem;font-weight:700}.project a:hover{color:var(--lime)}.note{font-size:.73rem;color:var(--muted);margin-top:18px}
+.explist{border-top:1px solid var(--line)}.exp{display:grid;grid-template-columns:175px 1fr;gap:30px;padding:25px 0;border-bottom:1px solid var(--line)}.date{font:.7rem var(--mono);color:var(--lime);padding-top:4px}.exp h3{margin:0;font-size:1.08rem;letter-spacing:-.03em}.company{color:var(--muted);font-size:.81rem;margin:3px 0 9px}.exp p{color:var(--muted);font-size:.85rem;margin:0;max-width:740px}.label{display:inline-block;margin-top:10px;padding:4px 7px;border:1px solid var(--line);border-radius:5px;color:var(--muted);font:.62rem var(--mono)}#credentials{background:var(--panel);border-block:1px solid var(--line)}.twocol{display:grid;grid-template-columns:1fr 1fr;gap:15px}.card h3{font-size:1rem;margin:0 0 15px}.credential{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}.credential:last-child{border:0}.credential i{font:.7rem var(--mono);font-style:normal;color:var(--lime)}.credential strong{display:block;font-size:.81rem}.credential span{display:block;color:var(--muted);font-size:.74rem}.card p,.card li{color:var(--muted);font-size:.82rem}.card ul{padding-left:18px;margin:0}.card li+li{margin-top:7px}
+.contactpanel{display:grid;grid-template-columns:1fr .85fr;gap:35px;padding:clamp(25px,5vw,50px);border:1px solid var(--line);border-radius:18px;background:var(--panel);position:relative;overflow:hidden}.contactpanel h2{font-size:clamp(2.1rem,5vw,3.5rem);letter-spacing:-.07em;line-height:1.05;margin:15px 0}.contactpanel p{max-width:470px;color:var(--muted);font-size:.9rem}.contactlinks{display:flex;flex-direction:column;justify-content:center;gap:10px;z-index:1}.contactlink{display:flex;align-items:center;justify-content:space-between;gap:15px;border:1px solid var(--line);border-radius:9px;background:var(--bg);padding:14px;font-size:.81rem}.contactlink:hover{border-color:var(--lime)}.contactlink small{display:block;color:var(--muted);font:.62rem var(--mono)}.contactlink b{color:var(--lime)}footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font:.66rem var(--mono)}.footrow{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.backtop{color:var(--lime)}.reveal{opacity:0;transform:translateY(16px);transition:.6s}.reveal.visible{opacity:1;transform:none}.toast{position:fixed;bottom:22px;left:50%;transform:translate(-50%,15px);opacity:0;pointer-events:none;background:var(--lime);color:#11170a;border-radius:8px;padding:10px 14px;font-size:.78rem;font-weight:800;z-index:90;transition:.2s}.toast.show{opacity:1;transform:translate(-50%,0)}
+@media(max-width:780px){.hero{grid-template-columns:1fr;gap:35px;min-height:auto;padding-top:70px}.terminal{max-width:600px;transform:none}.aboutgrid{grid-template-columns:1fr;gap:18px}.stamp{min-height:180px}.exp{grid-template-columns:130px 1fr;gap:18px}.contactpanel{grid-template-columns:1fr}.navlinks{gap:12px}.navlinks a{font-size:.73rem}}@media(max-width:580px){.wrap{width:calc(100% - 30px)}.section{padding:65px 0}.nav{height:64px}.navlinks{display:none;position:absolute;top:64px;left:0;right:0;background:var(--panel);padding:12px 20px 20px;flex-direction:column;gap:0;border-bottom:1px solid var(--line)}.navlinks.open{display:flex}.navlinks a{padding:12px 0;border-bottom:1px solid var(--line);font-size:.86rem}.menubtn{display:inline-block}.navright .btn{display:none}.hero h1{font-size:clamp(3.2rem,14vw,4.8rem)}.hero-copy{font-size:.93rem}.section-head{display:block}.section-head p{margin-top:13px}.projects,.twocol{grid-template-columns:1fr}.project{min-height:270px}.exp{grid-template-columns:1fr;gap:6px}.footrow{flex-direction:column}.termbody{padding:16px}.socials{gap:13px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+</style></head><body>
+<div class="progress" id="progress"></div><header><div class="wrap nav"><a class="brand" href="#home"><span class="brandmark">MR</span><span>maureen<span class="accent">.rita</span></span></a><nav class="navlinks" id="navlinks" aria-label="Main navigation"><a href="#about">About</a><a href="#work">Projects</a><a href="#experience">Experience</a><a href="#credentials">Credentials</a><a href="#contact">Contact</a></nav><div class="navright"><button class="iconbtn" id="theme" aria-label="Switch theme" title="Toggle light and dark theme">◐</button><a class="btn primary" href="#contact">Let's connect ↗</a><button class="menubtn" id="menu" aria-label="Open navigation" aria-expanded="false">☰</button></div></div></header>
+<main id="home"><section class="wrap hero"><div><div class="status"><span class="dot"></span> OPEN TO MEANINGFUL COLLABORATION</div><p class="eyebrow" style="margin-top:25px">Cybersecurity · Systems · Strategy</p><h1>Security-minded.<span>Systems-focused.</span></h1><p class="hero-copy">I’m <strong>Maureen Rita Muriuki</strong> — an IT graduate working across cybersecurity consulting, technical investigation, and digital strategy. I enjoy understanding how systems behave, documenting what matters, and turning complex details into useful next steps.</p><div class="actions"><a class="btn primary" href="#work">Explore my work ↓</a><a class="btn" href="https://github.com/MaureenRitaMuriuki" target="_blank" rel="noreferrer">GitHub profile ↗</a></div><div class="socials"><a href="https://www.linkedin.com/in/maureen-rita-781871254" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="mailto:maureenrita47@gmail.com">Email me ↗</a><a href="#experience">Professional experience ↓</a></div></div>
+<div class="terminal"><div class="termhead"><span>maureen@portfolio: ~</span><span class="lights">● ● ●</span></div><div class="termbody"><div><span class="prompt">➜</span> whoami</div><div class="output">Maureen Rita Muriuki<br><b>Cybersecurity · IT · Digital Strategy</b></div><div style="margin-top:12px"><span class="prompt">➜</span> ls ./focus</div><div class="output">web-app-security/<br>network-analysis/<br>security-documentation/<br>digital-strategy/</div><div style="margin-top:12px"><span class="prompt">➜</span> <span id="commandEcho">echo "Curiosity into clarity."</span></div><div class="output" id="commandOutput">Curiosity into clarity.</div><form class="termform" id="termform"><label class="prompt" for="command">➜</label><input id="command" placeholder="try: help" autocomplete="off" spellcheck="false"><button>RUN ↵</button></form><p class="hint">Try help, about, projects, skills, contact, or clear.</p></div></div></section>
+<div class="ticker" aria-label="Areas of interest"><div><span>Web application security</span><span>Network diagnostics</span><span>Security documentation</span><span>Python & Nmap</span><span>Digital strategy</span><span>Technical support</span><span>Web application security</span><span>Network diagnostics</span><span>Security documentation</span><span>Python & Nmap</span><span>Digital strategy</span><span>Technical support</span></div></div>
+<section class="section wrap" id="about"><div class="section-head reveal"><div><div class="eyebrow">01 / About</div><h2>Technical curiosity.<br><span class="accent">Practical thinking.</span></h2></div><p>I bring together analytical work, clear communication, and a view of technology that includes the people and businesses relying on it.</p></div><div class="aboutgrid reveal"><div class="stamp"><div><div class="stampbig">[MR]</div><p class="mono muted">INFORMATION TECHNOLOGY<br>CYBERSECURITY · DIGITAL STRATEGY</p></div><div class="stampfoot"><span>KENYA</span><span>ALWAYS LEARNING ↗</span></div></div><div class="aboutcopy"><h3>My work sits where technology, security, and real-world operations meet.</h3><p>My technical foundation includes hands-on web application security labs, network diagnostics, packet analysis, and scripting. I value careful testing, evidence-led observations, and documentation that helps others understand what happened and what to consider next.</p><p>Alongside technical work, I manage marketing strategy and organic social channels for a technology business. That experience shapes how I think about audiences, product communication, and the connection between technical products and business outcomes.</p><p>I’m interested in opportunities where I can keep building practical security skills, contribute thoughtfully to a team, and communicate technical work clearly.</p><div class="pills"><span class="pill">Web app security</span><span class="pill">Nmap</span><span class="pill">Wireshark</span><span class="pill">Python</span><span class="pill">Linux / Kali</span><span class="pill">MTR & traceroute</span><span class="pill">Security reporting</span><span class="pill">Digital strategy</span></div></div></div></section>
+<section class="section" id="work"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow">02 / Selected work</div><h2>Labs, tools &<br><span class="accent">things I’ve explored.</span></h2></div><p>Documented projects that show my approach to learning and investigating. Open a repository for implementation details and supporting material.</p></div><div class="filters reveal" role="group" aria-label="Filter projects"><button class="filter" data-filter="all" aria-pressed="true">All work</button><button class="filter" data-filter="web" aria-pressed="false">Web security</button><button class="filter" data-filter="network" aria-pressed="false">Network analysis</button><button class="filter" data-filter="tools" aria-pressed="false">Tools & automation</button></div><div class="projects">
+<article class="project reveal" data-category="web"><div class="projecttop"><span class="num">PROJECT / 01</span><span class="type">WEB SECURITY</span></div><h3>DVWA · Web App Security Lab</h3><p>A deliberately vulnerable web application lab used to explore common web security issues, including cross-site scripting, SQL injection, and command injection in a controlled environment.</p><div class="tags"><span>Kali Linux</span><span>DVWA</span><span>OWASP concepts</span></div><a href="https://github.com/MaureenRitaMuriuki/DVWA" target="_blank" rel="noreferrer">View repository ↗</a></article>
+<article class="project reveal" data-category="tools"><div class="projecttop"><span class="num">PROJECT / 02</span><span class="type">RECON & SCANNING</span></div><h3>Nmap Vulnerability Scanner</h3><p>A learning project around automating network reconnaissance, service/version detection, and reviewing Nmap vulnerability-script output for clearer reporting.</p><div class="tags"><span>Nmap</span><span>Linux / Bash</span><span>Reporting</span></div><a href="https://github.com/MaureenRitaMuriuki/nmap-vuln-scanner" target="_blank" rel="noreferrer">View repository ↗</a></article>
+<article class="project reveal" data-category="network"><div class="projecttop"><span class="num">PROJECT / 03</span><span class="type">TRAFFIC ANALYSIS</span></div><h3>DNS Spoofing & Wireshark</h3><p>A controlled lab exploring DNS response manipulation and observing DNS traffic in Wireshark to understand how altered name resolution appears on a network.</p><div class="tags"><span>Bettercap</span><span>Wireshark</span><span>DNS</span></div><a href="https://github.com/MaureenRitaMuriuki/dns-spoofing-with-wireshark" target="_blank" rel="noreferrer">View repository ↗</a></article>
+<article class="project reveal" data-category="network"><div class="projecttop"><span class="num">PROJECT / 04</span><span class="type">NETWORK DIAGNOSTICS</span></div><h3>Network Path Mapping with MTR</h3><p>Uses MTR to inspect network hops, latency, and packet loss along a route. The project documents how path diagnostics can help investigate connectivity and performance concerns.</p><div class="tags"><span>MTR</span><span>Linux</span><span>Network analysis</span></div><a href="https://github.com/MaureenRitaMuriuki/network-path-mapping-mtr" target="_blank" rel="noreferrer">View repository ↗</a></article>
+</div><p class="note">Security testing is for controlled labs or systems where explicit authorization has been granted. Descriptions reflect documented project scope; no unverified results or performance metrics are implied.</p></div></section>
+<section class="section wrap" id="experience"><div class="section-head reveal"><div><div class="eyebrow">03 / Experience</div><h2>Putting ideas<br><span class="accent">to work.</span></h2></div><p>A blend of technical consulting, IT support, and digital marketing — with a focus on learning, communication, and dependable execution.</p></div><div class="explist reveal">
+<article class="exp"><div class="date">AUG 2026 — PRESENT</div><div><h3>Cybersecurity Consultant</h3><div class="company">Label Forge · Modular, self-hostable annotation operating system</div><p>Cybersecurity consulting in the context of a modular, self-hostable annotation operating system. Focused on security considerations, careful review, and communicating observations and recommendations clearly. Specific deliverables can be discussed in line with project scope and confidentiality.</p><span class="label">CYBERSECURITY CONSULTING</span></div></article>
+<article class="exp"><div class="date">OCT 2026 — PRESENT</div><div><h3>Marketing Manager & Strategist</h3><div class="company">Fahari Connect · Technology for land-selling businesses</div><p>Manage organic social media across Facebook, LinkedIn, and TikTok. Align content and reporting with business priorities, review performance analytics, and identify practical improvements to audience engagement and the path from attention to inquiries.</p><span class="label">MARKETING · ANALYTICS · STRATEGY</span></div></article>
+<article class="exp"><div class="date">OCT — DEC 2025</div><div><h3>Cyber Cafe Attendant / Photographer</h3><div class="company">Filma Media Africa</div><p>Supported customers with digital services, printing and document tasks, common software, basic troubleshooting, software installation, routine maintenance, record keeping, and photography.</p><span class="label">CUSTOMER SUPPORT · IT OPERATIONS</span></div></article>
+<article class="exp"><div class="date">JUL 2025 — JAN 2026</div><div><h3>Social Media Manager</h3><div class="company">Softgrade Studio</div><p>Supported social media strategy, content development, audience engagement, and performance review for consistent digital communication.</p><span class="label">CONTENT · SOCIAL STRATEGY</span></div></article>
+<article class="exp"><div class="date">SEP — NOV 2024</div><div><h3>IT Intern</h3><div class="company">Ngong Law Court · Judiciary</div><p>Provided day-to-day IT support, helped troubleshoot computer and software issues, supported routine IT operations, and escalated issues when needed.</p><span class="label">IT SUPPORT</span></div></article>
+</div></section>
+<section class="section" id="credentials"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow">04 / Foundations</div><h2>Learning is part<br><span class="accent">of the work.</span></h2></div><p>Education and training supporting my ongoing development across information technology and cybersecurity.</p></div><div class="twocol reveal">
+<div class="card"><h3>Education</h3><div class="credential"><i>01</i><div><strong>BSc. Information Technology</strong><span>Dedan Kimathi University of Technology · 2021–2024</span></div></div><div class="credential"><i>02</i><div><strong>Cyber Analyst Course</strong><span>CyberShujaa, in collaboration with Serianu and USIU · Apr–Aug 2025</span></div></div></div>
+<div class="card"><h3>Selected training & credentials</h3><div class="credential"><i>↗</i><div><strong>CyberGirls Fellowship</strong><span>2023</span></div></div><div class="credential"><i>↗</i><div><strong>CyberSafe Security Training</strong><span>IAM and OWASP · 2023</span></div></div><div class="credential"><i>↗</i><div><strong>Cisco Security Courses</strong><span>Network Defense and Threat Analysis · 2023</span></div></div><div class="credential"><i>↗</i><div><strong>LinkedIn Learning</strong><span>Phishing, SOC tools, and threat modeling · 2024</span></div></div></div>
+<div class="card"><h3>Technical toolkit</h3><p>Tools and areas used in projects or training; experience varies by tool and project scope.</p><div class="pills"><span class="pill">Kali Linux</span><span class="pill">Nmap</span><span class="pill">Wireshark</span><span class="pill">MTR</span><span class="pill">Traceroute</span><span class="pill">Python</span><span class="pill">Bash</span><span class="pill">Web security</span><span class="pill">Network diagnostics</span><span class="pill">Technical documentation</span></div></div>
+<div class="card"><h3>Leadership & service</h3><div class="credential"><i>01</i><div><strong>President — General Assembly, Model United Nations</strong><span>Led university-level discussions on AI regulation, digital sovereignty, and cyber law.</span></div></div><div class="credential"><i>02</i><div><strong>UNDP Student Ambassador</strong><span>2023 · Cybersecurity awareness and digital inclusion.</span></div></div></div>
+</div></div></section>
+<section class="section wrap" id="contact"><div class="contactpanel reveal"><div><div class="eyebrow">05 / Contact</div><h2>Have a good problem?<br><span class="accent">Let’s talk.</span></h2><p>I’m open to conversations about cybersecurity, IT opportunities, technical collaboration, and work where clear thinking and communication matter.</p><button class="btn primary" id="copy">Copy email address ⎘</button></div><div class="contactlinks"><a class="contactlink" href="mailto:maureenrita47@gmail.com"><span><small>EMAIL</small>maureenrita47@gmail.com</span><b>↗</b></a><a class="contactlink" href="https://www.linkedin.com/in/maureen-rita-781871254" target="_blank" rel="noreferrer"><span><small>LINKEDIN</small>Connect professionally</span><b>↗</b></a><a class="contactlink" href="https://github.com/MaureenRitaMuriuki" target="_blank" rel="noreferrer"><span><small>GITHUB</small>Explore repositories</span><b>↗</b></a><a class="contactlink" href="tel:+254798682747"><span><small>PHONE</small>+254 798 682 747</span><b>↗</b></a></div></div></section></main>
+<footer><div class="wrap footrow"><span>© <span id="year"></span> MAUREEN RITA MURIUKI · BUILT WITH INTENTION.</span><span>SECURITY · SYSTEMS · STRATEGY</span><a class="backtop" href="#home">BACK TO TOP ↑</a></div></footer><div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];$('#year').textContent=new Date().getFullYear();addEventListener('scroll',()=>{let max=document.documentElement.scrollHeight-innerHeight;$('#progress').style.width=(max?scrollY/max*100:0)+'%'},{passive:true});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}}),{threshold:.12});$$('.reveal').forEach(e=>io.observe(e));
+const nav=$('#navlinks'),menu=$('#menu');menu.addEventListener('click',()=>{let open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Close navigation':'Open navigation')});$$('#navlinks a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}));
+$('#theme').addEventListener('click',()=>{document.documentElement.dataset.theme=document.documentElement.dataset.theme==='light'?'dark':'light'});
+$$('.filter').forEach(b=>b.addEventListener('click',()=>{$$('.filter').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));$$('.project').forEach(p=>p.hidden=b.dataset.filter!=='all'&&p.dataset.category!==b.dataset.filter)}));
+const commands={help:'Commands: about · projects · skills · contact · clear',about:'IT graduate working across cybersecurity consulting, technical investigation, and digital strategy.',projects:'4 projects: DVWA, Nmap scanner, DNS traffic analysis, and MTR network mapping.',skills:'Web security labs · Nmap · Wireshark · Python · Bash · Linux · MTR · technical documentation',contact:'Email: maureenrita47@gmail.com | LinkedIn: maureen-rita-781871254',clear:''};
+$('#termform').addEventListener('submit',e=>{e.preventDefault();let c=$('#command').value.trim().toLowerCase();$('#commandEcho').textContent=c||' ';$('#commandOutput').textContent=c==='clear'?'Terminal cleared. Try help.':commands[c]!==undefined?commands[c]:'Command not found: '+c+'. Type help to see available commands.';$('#command').value=''});
+let timer;function toast(t){$('#toast').textContent=t;$('#toast').classList.add('show');clearTimeout(timer);timer=setTimeout(()=>$('#toast').classList.remove('show'),2200)}$('#copy').addEventListener('click',async()=>{try{await navigator.clipboard.writeText('maureenrita47@gmail.com');toast('Email address copied.')}catch{location.href='mailto:maureenrita47@gmail.com'}});
+const sio=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)$$('#navlinks a').forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-30% 0px -60% 0px'});$$('main section[id]').forEach(s=>sio.observe(s));
+</script></body></html>
