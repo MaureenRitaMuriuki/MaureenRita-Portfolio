@@ -17,6 +17,8 @@ This portfolio is designed as an interactive environment rather than a conventio
 
 ## Projects
 
+- [AEGIS — Security Operations & Detection Engineering Platform](https://github.com/MaureenRitaMuriuki/AEGIS-Adversary-Emulation-Intelligent-Security-Operations-) — in active development; currently includes event ingestion and normalisation, SQLite persistence, selected detections, MITRE ATT&CK mapping, alert triage, and a React/TypeScript SOC console. Uses synthetic telemetry for current validation.
+
 - [DVWA — Web Application Security Lab](https://github.com/MaureenRitaMuriuki/DVWA)
 - [Nmap Vulnerability Scanner](https://github.com/MaureenRitaMuriuki/nmap-vuln-scanner)
 - [DNS Spoofing with Wireshark](https://github.com/MaureenRitaMuriuki/dns-spoofing-with-wireshark)
